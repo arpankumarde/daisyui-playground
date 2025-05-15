@@ -1,65 +1,57 @@
+import Image from "next/image";
 import Link from "next/link";
-import React from "react";
 
 const Sidebar = () => {
   return (
-    <aside className="h-screen sticky top-0 overflow-y-auto space-y-4 w-72 py-6 px-4 bg-base-200">
-      <Link href="/" className="btn btn-ghost">
-        <img alt="Logo" src="/brand/logo.png" className="w-6" />
-        Daisy UI
+    <aside className="h-screen sticky top-0 flex flex-col overflow-y-auto space-y-4 w-72 bg-primary">
+      <Link href="/" className="m-4">
+        <Image
+          alt="Logo"
+          src="https://placehold.co/1600x300/EEEEEE/31343C/png"
+          width={800}
+          height={150}
+        />
       </Link>
 
-      <ul className="menu p-0">
+      <ul className="menu menu-lg w-full px-4 grow">
         <li>
-          <Link href="/" className="menu-i active">
-            <i className="fa-solid fa-house fa-fw"></i>
+          <Link href="/" className="menu-active">
             Home
           </Link>
         </li>
         <li>
-          <Link href="/dashboard">
-            <i className="fa-solid fa-chart-line fa-fw"></i>
-            Dashboard
-          </Link>
+          <Link href="/dashboard">Dashboard</Link>
         </li>
         <li>
-          <Link href="/projects">
-            <i className="fa-solid fa-bars-progress fa-fw"></i>
-            Projects
-          </Link>
+          <Link href="/projects">Projects</Link>
         </li>
         <li>
-          <Link href="/tasks">
-            <i className="fa-solid fa-list fa-fw"></i>
-            Tasks
-          </Link>
+          <Link href="/tasks">Tasks</Link>
         </li>
         <li>
-          <Link href="/reporting">
-            <i className="fa-solid fa-chart-pie fa-fw"></i>
-            Reporting
-          </Link>
+          <Link href="/reporting">Reporting</Link>
         </li>
         <li>
-          <Link href="/users">
-            <i className="fa-solid fa-users fa-fw"></i>
-            Users
-          </Link>
+          <Link href="/users">Users</Link>
         </li>
       </ul>
 
-      <div className="divider"></div>
-
-      <div className="flex justify-between items-center p-2 mt-auto">
-        <div className="flex flex-col bg-accent w-full rounded-lg p-2">
-          <div className="flex flex-col text-start">
-            <span className="font-bold">User name</span>
-            <span className="text-sm text-accent">user@email.com</span>
-          </div>
-          <a className="btn btn-error btn-sm" title="Logout">
-            <i className="fa-solid fa-door-open"></i>
-          </a>
+      <div className="flex flex-col gap-4 mt-auto bg-accent/50 p-4">
+        <div>
+          <h3 className="card-title">Overdue Tasks</h3>
+          <p className="text-sm">
+            2 Overdue Assignments
+            <br /> 1 missed quiz
+          </p>
         </div>
+
+        <Link
+          href="/tasks/checkout"
+          className="btn btn-accent"
+          title="Checkout"
+        >
+          Checkout
+        </Link>
       </div>
     </aside>
   );
