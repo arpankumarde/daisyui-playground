@@ -1,0 +1,74 @@
+{
+  "groups": [
+    {
+      "name": "Introduction to Advanced Machine Learning",
+      "locked": false,
+      "items": [
+        {
+          "title": "Introduction to Deep Learning",
+          "description": "This lesson covers the basics of deep learning and its applications"
+        },
+        {
+          "title": "Overview of Advanced Machine Learning Techniques",
+          "description": "This lesson provides an overview of advanced machine learning techniques, including ensemble methods and transfer learning"
+        }
+      ]
+    },
+    {
+      "name": "Deep Learning Fundamentals",
+      "locked": true,
+      "items": [
+        {
+          "title": "Convolutional Neural Networks (CNNs)",
+          "description": "This lesson covers the basics of CNNs, including convolutional layers, pooling layers, and fully connected layers"
+        },
+        {
+          "title": "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) Networks",
+          "description": "This lesson covers the basics of RNNs and LSTMs, including their applications in natural language processing and time series forecasting"
+        }
+      ]
+    },
+    {
+      "name": "Advanced Deep Learning Techniques",
+      "locked": true,
+      "items": [
+        {
+          "title": "Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs)",
+          "description": "This lesson covers the basics of GANs and VAEs, including their applications in image and video generation"
+        },
+        {
+          "title": "Attention Mechanisms and Transformers",
+          "description": "This lesson covers the basics of attention mechanisms and transformers, including their applications in natural language processing and computer vision"
+        }
+      ]
+    },
+    {
+      "name": "Specialized Machine Learning Topics",
+      "locked": true,
+      "items": [
+        {
+          "title": "Explainable AI (XAI) and Model Interpretability",
+          "description": "This lesson covers the basics of XAI and model interpretability, including techniques for explaining and interpreting machine learning models"
+        },
+        {
+          "title": "Adversarial Robustness and Security",
+          "description": "This lesson covers the basics of adversarial robustness and security, including techniques for defending against adversarial attacks"
+        }
+      ]
+    },
+    {
+      "name": "Case Studies and Applications",
+      "locked": true,
+      "items": [
+        {
+          "title": "Machine Learning in Computer Vision",
+          "description": "This lesson covers the applications of machine learning in computer vision, including image classification, object detection, and segmentation"
+        },
+        {
+          "title": "Machine Learning in Natural Language Processing",
+          "description": "This lesson covers the applications of machine learning in natural language processing, including text classification, sentiment analysis, and language translation"
+        }
+      ]
+    }
+  ]
+}

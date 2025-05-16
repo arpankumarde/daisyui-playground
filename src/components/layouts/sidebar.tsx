@@ -7,13 +7,13 @@ const Sidebar = () => {
       <Link href="/" className="m-4">
         <Image
           alt="Logo"
-          src="https://placehold.co/1600x300/EEEEEE/31343C/png"
+          src="https://placehold.co/1600x400/EEEEEE/31343C/png"
           width={800}
-          height={150}
+          height={200}
         />
       </Link>
 
-      <ul className="menu menu-lg w-full px-4 grow">
+      <ul className="menu menu-lg text-white w-full px-4 grow">
         <li>
           <Link href="/" className="menu-active">
             Home
@@ -36,7 +36,7 @@ const Sidebar = () => {
         </li>
       </ul>
 
-      <div className="flex flex-col gap-4 mt-auto bg-accent/50 p-4">
+      <div className="flex flex-col gap-4 mt-auto bg-yellow-100 p-4">
         <div>
           <h3 className="card-title">Overdue Tasks</h3>
           <p className="text-sm">

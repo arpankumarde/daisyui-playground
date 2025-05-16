@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { List, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import { Headset, List } from "@phosphor-icons/react/dist/ssr";
 
 const Navbar = () => {
   const user = true;
@@ -40,11 +40,7 @@ const Navbar = () => {
         <ul className="hidden menu sm:menu-horizontal gap-6 items-center">
           <li>
             <Link href="/" target="_blank" className="btn btn-ghost btn-circle">
-              <WhatsappLogo
-                size={32}
-                weight="duotone"
-                className="text-green-700"
-              />
+              <Headset size={32} weight="duotone" className="text-primary" />
             </Link>
           </li>
           <li>
@@ -68,20 +64,10 @@ const Navbar = () => {
                 className="dropdown-content z-[1] menu p-2 shadow bg-base-200 rounded-box w-52"
               >
                 <li>
-                  <a>Progress Tracker</a>
-                </li>
-                <li>
-                  <a>Keyboard shortcut</a>
-                </li>
-                <div className="divider my-0"></div>
-                <li>
-                  <a>Company profile</a>
-                </li>
-                <li>
-                  <a>Team</a>
-                </li>
-                <li>
                   <a>Profile</a>
+                </li>
+                <li>
+                  <a>Progress Tracker</a>
                 </li>
                 <div className="divider my-0"></div>
                 <li>
