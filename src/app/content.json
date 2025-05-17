@@ -1,9 +1,9 @@
 {
-  "groups": [
+  "modules": [
     {
       "name": "Introduction to Advanced Machine Learning",
       "locked": false,
-      "items": [
+      "submodules": [
         {
           "title": "Introduction to Deep Learning",
           "description": "This lesson covers the basics of deep learning and its applications"
@@ -12,12 +12,22 @@
           "title": "Overview of Advanced Machine Learning Techniques",
           "description": "This lesson provides an overview of advanced machine learning techniques, including ensemble methods and transfer learning"
         }
+      ],
+      "activities": [
+        {
+          "title": "Build a Simple Neural Network",
+          "description": "Implement a basic neural network using TensorFlow or PyTorch to classify MNIST digits"
+        },
+        {
+          "title": "Ensemble Learning Lab",
+          "description": "Compare the performance of different ensemble methods on a classification task"
+        }
       ]
     },
     {
       "name": "Deep Learning Fundamentals",
       "locked": true,
-      "items": [
+      "submodules": [
         {
           "title": "Convolutional Neural Networks (CNNs)",
           "description": "This lesson covers the basics of CNNs, including convolutional layers, pooling layers, and fully connected layers"
@@ -26,12 +36,22 @@
           "title": "Recurrent Neural Networks (RNNs) and Long Short-Term Memory (LSTM) Networks",
           "description": "This lesson covers the basics of RNNs and LSTMs, including their applications in natural language processing and time series forecasting"
         }
+      ],
+      "activities": [
+        {
+          "title": "Image Classification with CNNs",
+          "description": "Train a CNN model to classify images from the CIFAR-10 dataset"
+        },
+        {
+          "title": "Time Series Prediction with LSTMs",
+          "description": "Implement an LSTM network for predicting stock prices or weather patterns"
+        }
       ]
     },
     {
       "name": "Advanced Deep Learning Techniques",
       "locked": true,
-      "items": [
+      "submodules": [
         {
           "title": "Generative Adversarial Networks (GANs) and Variational Autoencoders (VAEs)",
           "description": "This lesson covers the basics of GANs and VAEs, including their applications in image and video generation"
@@ -40,12 +60,22 @@
           "title": "Attention Mechanisms and Transformers",
           "description": "This lesson covers the basics of attention mechanisms and transformers, including their applications in natural language processing and computer vision"
         }
+      ],
+      "activities": [
+        {
+          "title": "Face Generation with GANs",
+          "description": "Build and train a GAN to generate realistic human faces"
+        },
+        {
+          "title": "Text Generation with Transformers",
+          "description": "Fine-tune a pre-trained transformer model for creative text generation"
+        }
       ]
     },
     {
       "name": "Specialized Machine Learning Topics",
       "locked": true,
-      "items": [
+      "submodules": [
         {
           "title": "Explainable AI (XAI) and Model Interpretability",
           "description": "This lesson covers the basics of XAI and model interpretability, including techniques for explaining and interpreting machine learning models"
@@ -54,12 +84,18 @@
           "title": "Adversarial Robustness and Security",
           "description": "This lesson covers the basics of adversarial robustness and security, including techniques for defending against adversarial attacks"
         }
+      ],
+      "activities": [
+        {
+          "title": "Model Interpretation Workshop",
+          "description": "Apply LIME and SHAP techniques to interpret the predictions of a black-box model"
+        }
       ]
     },
     {
       "name": "Case Studies and Applications",
       "locked": true,
-      "items": [
+      "submodules": [
         {
           "title": "Machine Learning in Computer Vision",
           "description": "This lesson covers the applications of machine learning in computer vision, including image classification, object detection, and segmentation"
@@ -67,6 +103,16 @@
         {
           "title": "Machine Learning in Natural Language Processing",
           "description": "This lesson covers the applications of machine learning in natural language processing, including text classification, sentiment analysis, and language translation"
+        }
+      ],
+      "activities": [
+        {
+          "title": "Object Detection Project",
+          "description": "Implement an object detection system using YOLO or Faster R-CNN"
+        },
+        {
+          "title": "Sentiment Analysis Application",
+          "description": "Build a web application that performs real-time sentiment analysis on user input"
         }
       ]
     }

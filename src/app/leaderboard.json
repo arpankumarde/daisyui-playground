@@ -1,0 +1,16 @@
+{
+  "leaderboard": [
+    {
+      "name": "John",
+      "score": 75
+    },
+    {
+      "name": "Jane",
+      "score": 60
+    },
+    {
+      "name": "Alice",
+      "score": 45
+    }
+  ]
+}
